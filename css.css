@@ -1,0 +1,80 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFEFD5;
+}
+
+.containerImg  {
+   margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden;
+    width: 1400px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+
+}  
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cormorant';
+}
+.btn{
+    margin: 0 auto ;
+    display: block;
+    border-radius: 10rem;
+    border-color: transparent;
+    background-color: #BC8F8F;
+    width: 230px;
+    height: 48px;
+}
+.text{
+    font-size: 21px;
+    color: white;
+    font-family: 'Caveat';
+    text-align: center;
+    margin: 0;
+
+}
+@media only screen and (max-width : 940px),
+only screen and (max-device-width : 940px){
+    .containerImg{
+        width: 21%;
+    }
+}
+@media only screen and (max-width : 720px),
+only screen and (max-device-width : 720px){
+    .containerImg{
+        width: 29%;
+    }
+}
+@media only screen and (max-width : 530px),
+only screen and (max-device-width : 530px){
+    .containerImg{
+        width: 46%;
+    }
+}
+
+
+
+
